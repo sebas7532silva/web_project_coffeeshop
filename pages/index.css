@@ -54,9 +54,6 @@
     margin-left: 80px;
     max-width: 709px;
     margin-bottom: 0px;
-}
-
-.header__title h1{
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -100,37 +97,24 @@
 
 .header__footer{
     position: absolute;
-    bottom: 40px;
     left: 80px;
+    bottom: 40px;
 }
 
-.header__footer ul{
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-.header__footer li{
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
-}
-
-.header__paragraph{
+.header__address{
     position: absolute;
     right: 80px;
     bottom: 40px;
 }
 
-.header__paragraph p{
+.header__paragraph{
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #838383;
+    margin: 0;
 }
 
 .recipes{
