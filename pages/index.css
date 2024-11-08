@@ -204,19 +204,19 @@
     margin-bottom: 0;
 }
 
-.reservation__form{
+.form{
     margin-bottom: 120px;
     margin-top: 80px;
 }
 
-.reservation__fieldset{
+.form__fieldset{
     display: flex;
     flex-direction: column;
     border: 0;
     width: 385px;
 }
 
-.reservation__form__label{
+.form__label{
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -225,7 +225,7 @@
     margin: 0;
 }
 
-.reservation__form__input{
+.form__input{
     margin-top: 8px;
     height: 60px;
     font-family: "Inter", Arial, sans-serif;
@@ -241,11 +241,11 @@
 }
 
 
-.reservation__form__input[type="datetime-local"]{
+.form__input[type="datetime-local"]{
     justify-content: space-between;
 }
 
-.reservation__form__button{
+.form__button{
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -259,7 +259,7 @@
     margin-bottom: 32px;
 }
 
-.reservation__form__button:hover{
+.form__button:hover{
     opacity: 70%;
 }
 
@@ -271,7 +271,7 @@
     margin-bottom: 120px;
 }
 
-.reservation__form__checkbox{
+.form__checkbox{
     border-radius: 2px;
     width: 20px;
     height: 20px;
