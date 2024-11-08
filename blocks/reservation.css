@@ -24,11 +24,5 @@
     margin: 0 auto 120px;
 }
 
-.reservation__terms{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 12px;
-    margin-bottom: 120px;
-}
+
 
