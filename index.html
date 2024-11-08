@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Cafetería CoffeeCake</title>
+        <title>Cafetería TripleEspresso</title>
         <meta charset="UTF-8" />
         <meta name="author" content="Freddy Silva" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Página sobre una cafetería usando HTML y CSS" />
         <meta name="keywords" content="HTML, CSS, Cafetería" />
-        <link rel="stylesheet" href="./vendor/normalize.css" />
         <link rel="stylesheet" href="./pages/index.css" />
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,7 +30,7 @@
                           <a class="nav__link" href="#reservation">Reservar una mesa</a>
                         </li>
                         <li>
-                          <a class="nav__link" href="#">Contactos</a>
+                          <a class="nav__link" href="#footer">Contactos</a>
                         </li>
                       </ul>
                     </nav>
@@ -136,7 +135,39 @@
                     </form>
                 </section>
             </main>
-            <footer class="footer">
+            <footer class="footer" id="footer">
+                <div class="footer__circle"></div>
+                <div class="footer__content">
+                    <img 
+                        src="../images/logo_coffeeshop_light.svg"
+                        class="footer__logo"
+                        alt="Logo de TripleEspresso"/>
+
+                    <div class="footer__social">
+                        <h3 class="footer__social-heading">Redes sociales</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <img 
+                                src="../images/facebook_white.svg"
+                                alt="Logo de Facebook"
+                                class="footer__social-icon" />
+                                <a class="footer__social-link" href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <img 
+                                src="../images/instagram_white.svg"
+                                alt="Logo de Facebook"
+                                class="footer__social-icon" />
+                                <a class="footer__social-link" href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+                <p class="footer__copyright">2024 Freddy Silva</p> 
             </footer>
         </div>
     </body>
