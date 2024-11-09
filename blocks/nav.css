@@ -25,3 +25,7 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+.nav__link:hover{
+    color: #2F80ED;
+}
